@@ -12,9 +12,16 @@ h1{
   
 } */
 .img-parent{
-  max-width: 50%;
-  border: 2px solid var(--aq);
+  width: 50%;
+  height: 250px;
+  border: 2px solid blue;
  border-radius: 48%;
+}
+.img{
+  width: 80%;
+  /*height: 300px;*/
+  border: 2px solid #eee;
+  border-radius: 2% ;
 }
 .basic-profile{
   text-decoration: none
@@ -22,17 +29,24 @@ h1{
 li{
   text-decoration-style: none;
 }
-
-footer{
+/*footer{
   line-height: 3rem
-}
+}*/
 
 a{
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.84rem;
   color: blue;
 }
-
+/*.btn{
+  color: grey;
+}
+  .btn:hover{
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+}
+"/"
 /** Responsiveness **/
 @media (max-width: 300px) 
 {
