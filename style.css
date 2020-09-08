@@ -12,10 +12,9 @@ h1{
   
 } */
 .img-parent{
-  width: 50%;
-  height: 250px;
-  border: 2px solid blue;
- border-radius: 48%;
+  height: 25%;
+  border: 2px solid lightblue;
+ border-radius: 50%;
 }
 .img{
   width: 80%;
